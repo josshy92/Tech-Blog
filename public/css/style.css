@@ -1,25 +1,25 @@
+body {
+    background-image: linear-gradient(to right,rgb(98, 98, 235) 0%, rgb(235, 115, 115) 100%);
+}
+
 header, .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
+
+a {
+    color: rgb(209, 209, 209);
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    text-align:center;
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+
+}
   
-  .no-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #1b89bc;
-    text-decoration: none;
-    font-size: 100%;
-  }
-  
-  .no-button:hover {
-    color: #065b83;
-    text-decoration: underline;
-  }
-  
-  .dollar-amount {
-    color: #056605;
-    font-weight: bold;
-    margin-left: -5px;
-  }
+ 
   
